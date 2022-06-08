@@ -1,0 +1,86 @@
+/* CARRITO */
+
+.carro{
+    height: 100%;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+
+
+.nleft{
+    text-align: center;
+    background-color: $color3;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.nleft h2{
+    margin: 10px;
+    text-align: left;
+}
+
+.title-nleft{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+span{
+    margin-right: 15px;
+    color: $color2;
+    font-weight: 500;
+}
+
+
+.nleft p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+
+#precio{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.form{
+    margin: 10px;
+
+    .form input{
+        margin-bottom: 30px;
+        box-shadow: 0px 1px rgb(201, 201, 201);
+    }
+
+}
+
+
+
+/* formulario */
+
+
+.nright{
+    text-align: center;
+    background-color: $color3;
+    margin: 20px;
+    border-radius: 10px;
+}
+    
+
+
+.talles{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+
+    .talles button{
+
+        box-shadow: 0px 2px #333;
+    }
+
